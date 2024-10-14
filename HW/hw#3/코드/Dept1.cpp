@@ -16,7 +16,7 @@ Dept1::Dept1(const Dept1& dept)
 	}
 }
 Dept1::~Dept1() {
-	delete scores;
+	delete [] scores;
 }
 int Dept1::getSize()
 {
