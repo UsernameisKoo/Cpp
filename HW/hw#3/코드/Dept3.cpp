@@ -8,7 +8,7 @@ Dept3::Dept3(int size) {
 	scores = new int[size];
 }
 Dept3::~Dept3() {
-	delete scores;
+	delete [] scores;
 }
 int Dept3::getSize()
 {
